@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- css loader animation -->
+<style>
+    .rotating {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: solid black 20px;
+        margin: 0 auto;
+        border-top: 1.3em solid red;
+        animation: round 1s linear infinite;
+    }
+    
+    @keyframes round {
+        from {
+            rotate: 0deg;
+        }
+        to {
+            rotate: 360deg;
+        }
+    }
+</style>
+
+<body>
+    <div class="rotating"></div>
+</body>
+
+
+</html>
